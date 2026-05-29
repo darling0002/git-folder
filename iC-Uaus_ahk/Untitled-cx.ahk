@@ -596,9 +596,9 @@ MoveAbsoluteOffset(dx, dy) {
     DPIAwareMouseMove(1010, 680)     ;SPO
     switch version {
         case 4:
-            ;MsgBox("函数中：版本4")
+            
         case 10:
-            ;MsgBox("函数中：版本10")
+            
     }
     ;step_Error_Warning_Status()
     ;BlockInput("MouseMove")
@@ -625,6 +625,7 @@ DPIAwareMouseMove(150, 200)     ;open-ok
 
 !z::{
 ;step_XX()
+;11111
 step_SAVE(666)
 }
 
